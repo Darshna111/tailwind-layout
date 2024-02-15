@@ -1,0 +1,26 @@
+.bg-img{
+    height: 805px;
+    background-image: url(images/bg_1.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+
+}
+.bg-overlay{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 805px;
+    background-color: pink;
+    content: 'hello';
+    opacity: .3;
+}
+.overlay-bg{
+ position: absolute;
+    top:80px;
+    left: 0;
+}
